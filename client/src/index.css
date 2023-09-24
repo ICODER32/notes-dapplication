@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* for hero section text */
+.gradient-text{
+  background-image: linear-gradient(to top, #111a84, #4c419c, #766ab4, #9e94cb, #c7c1e2, #c8c2e2, #c8c4e1, #c9c5e1, #a29bcb, #7a73b4, #524d9d, #212986);
+    background: -webkit-linear-gradient(to bottom, #3c0086, #47007e, #4f0076, #55036e, #590967);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 72px;
+}
+.clippy{
+  clip-path: polygon(0 0, 100% 0, 100% 76%, 0 100%);
+  background-image: linear-gradient(to left bottom, #ffffff, #ffffff, #ffffff, #ffffff, #ffffff, #f6f5ff, #edeafe, #e4e0fe, #cec9fd, #b7b3fb, #9d9efa, #8089f8);
+}
+.heading{
+  background-image: linear-gradient(to left top, #b8a0f0, #a389de, #8e73cb, #7a5db9, #6547a7, #5a3c9b, #50328e, #452782, #422479, #3e2170, #3b1e67, #371b5e);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.btn_create{
+  background-image: linear-gradient(to left top, #b8a0f0, #a389de, #8e73cb, #7a5db9, #6547a7, #5a3c9b, #50328e, #452782, #422479, #3e2170, #3b1e67, #371b5e);}
+.card{
+  background-image: linear-gradient(to left top, #b8a0f0, #a389de, #8e73cb, #7a5db9, #6547a7, #5a3c9b, #50328e, #452782, #422479, #3e2170, #3b1e67, #371b5e);}
+
+
